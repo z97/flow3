@@ -13,6 +13,7 @@ export default function Nanbar() {
         <li><a href="#mansRings">Mans`s Rings</a></li>
         <li><a href="#kidsJewellery">Kid`s Jewellery</a></li>
         <li><a href="#fashionRings">Fashion Rings</a></li>
+
       </ul>
     </div>
 
