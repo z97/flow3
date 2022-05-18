@@ -1,7 +1,7 @@
 import React from 'react'
-
+import { AiOutlineBell } from 'react-icons/ai'
 export default function Bell() {
   return (
-    <div>Bell</div>
+    <AiOutlineBell/>
   )
 }

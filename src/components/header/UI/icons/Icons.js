@@ -4,7 +4,7 @@ import Parcel from './Parcel'
 import Bell from './Bell'
 export default function Icons() {
   return (
-    <div>
+    <div style={{display: "flex", justifyContent: "space-between", width: "130px", alignItems: "center"}}>
         <Diamond/>
         <Parcel/>
         <Bell/>
