@@ -8,12 +8,12 @@ import './Header.css'
 
 export default function Header() {
   return (
-    <div class="container" style={{paddingTop:"50px"}}>
-      <div class="Search"><Search/></div>
-      <div class="SignIn"><SignInButton/></div>
-      <div class="Icons"><Icons/></div>
-      <div class="Logo"><Logo/></div>
-      <div class="Nav"><Nanbar/></div>
+    <div className="container" style={{paddingTop:"50px"}}>
+      <div className="Search"><Search/></div>
+      <div className="SignIn"><SignInButton/></div>
+      <div className="Icons"><Icons/></div>
+      <div className="Logo"><Logo/></div>
+      <div className="Nav"><Nanbar/></div>
     </div>
 
   )

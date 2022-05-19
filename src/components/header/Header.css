@@ -8,12 +8,31 @@
     "Logo Nav Nav Nav";
 }
 
-.Search { grid-area: Search; }
+.Search {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: Search;
+}
 
-.SignIn { grid-area: SignIn; }
+.SignIn {
+  align-self: center;
+  grid-area: SignIn;
+}
 
-.Icons { grid-area: Icons; }
+.Icons {
+  align-self: center;
+  grid-area: Icons;
+}
 
-.Logo { grid-area: Logo; }
+.Logo {
+  justify-self: start;
+  align-self: center;
+  grid-area: Logo;
+}
 
-.Nav { grid-area: Nav; }
+.Nav {
+  justify-self: stretch;
+  align-self: center;
+  grid-area: Nav;
+}
+

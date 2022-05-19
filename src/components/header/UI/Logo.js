@@ -1,7 +1,7 @@
 import React from 'react'
-
+import logo from "./logo.png" 
 export default function Logo() {
   return (
-    <div><h1 style={{color: "red", width: "252px"}}>WollyPro</h1></div>
+    <div style={{paddingRight: "20px"}}><img src={logo} alt='logo'/></div>
   )
 }

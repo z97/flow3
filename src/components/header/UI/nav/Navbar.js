@@ -4,7 +4,7 @@ export default function Nanbar() {
   return (
 
 
-    <div class="m-6 pb-5 pt-3 row" style={{ display: "flex", justifyContent: "space-between", alignContent: "center" }}>
+    <div className="m-6 pb-5 pt-3 row" style={{ display: "flex", justifyContent: "space-between", alignContent: "center" }}>
       <ul>
         <li><a href="#necklaces">Necklaces</a></li>
         <li><a href="#pendats">Pendats</a></li>
