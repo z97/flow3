@@ -9,15 +9,15 @@ export default function Header2(){
     return(
         <div className="container1" style={{top: "234px",
             left: "0px",
-            width: "1920px",
+            width: "100%",
             height: "1034.64px"}}>
-            <img src={pixels} alt="1" width="1300" height="1000" align="center"  />
+            <img src={pixels} alt="1" width="100%" height="1000" align="center"  />
 
             <div className="container2" style={{top: "1077px",
                 left: "0px",
-                width: "1920px",
+                width: "100%",
                 height: "843px"}}>
-                <img src={pixels2} alt="2" width="1300" height="500" align="center"  />
+                <img src={pixels2} alt="2" width="100%" height="500" align="center"  />
             </div>
 
             <div className="container3" style={{ top: "800px",
