@@ -3,6 +3,7 @@ import Icons from './UI/icons/Icons'
 import Logo from './UI/Logo'
 import Nanbar from './UI/nav/Navbar'
 import Search from './UI/Search'
+import Test from './UI/Test'
 import SignInButton from './UI/SignInButton'
 import './Header.css'
 
