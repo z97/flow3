@@ -1,0 +1,45 @@
+.container1 {  top: 1077px;
+    left: 0px;
+    width: 1920px;
+    height: 1035px;
+
+    /* UI Properties */
+
+    background: transparent url('./Images/page2/2.png') 0% 0% no-repeat padding-box;
+    box-shadow: 5px 12px 12px #00000029;
+    opacity: 1;
+
+}
+
+.container2 {  top: 1077px;
+    left: 0px;
+    width: 1920px;
+    height: 1035px;
+
+    /* UI Properties */
+
+    background: transparent url('./Images/page2/1.jpg') 0% 0% no-repeat padding-box;
+    box-shadow: 5px 12px 12px #00000029;
+    opacity: 1;
+
+}
+
+.container3 {
+    top: 1083px;
+    left: 209px;
+    width: 395px;
+    height: 250px;
+    transform: matrix(0.97, -0.24, 0.24, 0.97, 0, 0);
+}
+
+.container4 {
+    top: 935px;
+    left: 1283px;
+    width: 532px;
+    height: 306px;
+    transform: matrix(0.99, 0.16, -0.16, 0.99, 0, 0);
+    background: transparent url('./Images/page2/Rectangle 115.png') 0% 0% no-repeat padding-box;
+    opacity: 0.75;
+}
+
+.Pixels { grid-area: Pixels; }
