@@ -1,0 +1,24 @@
+.top-left {
+  position: absolute;
+  top: 430px;
+  left: 280px;
+}
+.headerH1{
+  color: black;
+  font-family: "Broadway";
+  font-size: 65px;
+}
+.buttonSignUp{
+  position: absolute;
+  background-color: #802882;
+  color: white;
+  top: 930px;
+  left: 280px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+.buttonSignUp:hover{
+  background-image: linear-gradient(rgb(198, 253, 205), rgb(90, 179, 124));
+}

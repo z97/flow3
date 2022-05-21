@@ -12,7 +12,7 @@ export default function Header2(){
             width: "50%",
             height: "1034.64px"}}>
             <img src={pixels} alt="1" width="100%" height="1000" align="center"/>
-
+        
             <div className="container2" style={{top: "-400px",
                 left: "-7px",
                 width: "100%",
