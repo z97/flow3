@@ -1,6 +1,7 @@
 .top-left {
-  position: absolute;
-  top: 430px;
+  position: relative;
+  top: -2300px;
+  width: fit-content;
   left: 280px;
 }
 .headerH1{
@@ -9,11 +10,10 @@
   font-size: 65px;
 }
 .buttonSignUp{
-  position: absolute;
+  position: relative;
   background-color: #802882;
   color: white;
-  top: 930px;
-  left: 280px;
+  width: fit-content;
   border-radius: 20px;
   width: 150px;
   height: 40px;
@@ -22,3 +22,4 @@
 .buttonSignUp:hover{
   background-image: linear-gradient(rgb(198, 253, 205), rgb(90, 179, 124));
 }
+
