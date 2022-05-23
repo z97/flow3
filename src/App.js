@@ -5,9 +5,8 @@ import StartPage from './components/startPage/StartPage';
 function App() {
   return (
     <div className="App">
-      <Header/>
-        <StartPage/>
-        <SecondPage/>
+      <Header />
+      <StartPage />
     </div>
   );
 }

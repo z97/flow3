@@ -11,11 +11,9 @@ export default function StartPage() {
       <div style={{ position: "relative", width: "fit-content", bottom: "1900px", left: "250px"}}>
       <button className='buttonSignUp' style={{}}>Sign Up</button>
       </div>
-
       <div style={{ position: "relative", margin: "0 auto", width: "fit-content", bottom: "1100px" }}>
         <button className='buttonSignUp' >Sign Up</button>
       </div>
-
       <div style={{ position: "relative", margin: "auto", top: "-263px", width: "fit-content" }}>
         <img src={google} alt="google play" />
         <img src={appstore} alt="appstore" />
