@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { AiOutlineUser } from 'react-icons/ai'
 import { GiPresent } from 'react-icons/gi'
 import { BiMessage } from 'react-icons/bi'
-import '../../../App.css'
 import Popup from 'reactjs-popup';
 
 export default function SignInButton() {
