@@ -1,0 +1,40 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Logo Search SignIn Icons"
+      "Logo navbar navbar navbar"
+      "BigImage BigImage BigImage BigImage"
+      "Account AboutUs Help FollowUs"
+      "LogoBottom CopyRight CopyRight Term";
+  }
+  
+  .Logo { grid-area: Logo; }
+  
+  .Search { grid-area: Search; }
+  
+  .SignIn { grid-area: SignIn; }
+  
+  .Icons { grid-area: Icons; }
+  
+  .navbar { grid-area: navbar; }
+  
+  .BigImage { grid-area: BigImage; }
+  
+  .Account { grid-area: Account; }
+  
+  .AboutUs { grid-area: AboutUs; }
+  
+  .Help { grid-area: Help; }
+  
+  .FollowUs { grid-area: FollowUs; }
+  
+  .LogoBottom { grid-area: LogoBottom; }
+  
+  .CopyRight { grid-area: CopyRight; }
+  
+  .Term { grid-area: Term; }
+  
