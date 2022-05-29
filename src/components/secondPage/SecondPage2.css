@@ -1,0 +1,31 @@
+body{
+
+
+    top: 276px;
+    left: 1496px;
+    width: 127px;
+    height: 2215px;
+
+
+
+    opacity: 1;
+}
+.h4, p{
+    display: flex;
+    align-items: flex-end;
+
+    justify-content: space-between;
+    padding: 30px;
+
+
+    height: 1000px;
+
+
+
+}
+
+.a{
+    color: black;
+}
+
+
