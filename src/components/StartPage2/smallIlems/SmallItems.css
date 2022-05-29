@@ -1,0 +1,6 @@
+.SmallItems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: flex-start;
+  }
