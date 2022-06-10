@@ -1,9 +1,12 @@
 import './App.css';
-import SecondPage2 from "./components/secondPage/SecondPage2";
+import Body from './components/artem/body/Body';
+import Header from './components/artem/header/Header';
+
 function App() {
   return (
     <div className="App">
-        <SecondPage2/>
+        <Header/>
+        <Body/>
     </div>
   );
 }
