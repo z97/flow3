@@ -1,12 +1,25 @@
-import './App.css';
-import Body from './components/artem/body/Body';
-import Header from './components/artem/header/Header';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Body from "./components/artem/body/Body";
+import Header from "./components/artem/header/Header";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
+import Contact from "./pages/Contact";
+import NoPage from "./pages/NoPage";
+
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Body/>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="blogs" element={<Blogs />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
     </div>
   );
 }
