@@ -18,6 +18,7 @@ export default function StartPage() {
         <img src={google} alt="google play" />
         <img src={appstore} alt="appstore" />
       </div>
+
     </div>
 
   )

@@ -8,6 +8,8 @@ import fifth from "./images/Cabochon_Fassungs.154.jpg"
 import sixth from "./images/Cabochon_Fassungs.159.jpg"
 import seventh from "./images/Cabochon_Fassungs.162.jpg"
 import eighth from "./images/untitled.182.jpg"
+import nine from "./images/index.png"
+import ten from "./images/index1.png"
 import image from "../StartPage2/images/items/1.jpg";
 export default function SecondPage2(){
     return (
@@ -113,6 +115,7 @@ export default function SecondPage2(){
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 

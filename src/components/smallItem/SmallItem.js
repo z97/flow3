@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../secondPage/images/untitled.182.jpg'
+import img from '../../body/secondPage/images/untitled.182.jpg'
 const SmallItem = (props) => {
     return (
         <div className="container">
