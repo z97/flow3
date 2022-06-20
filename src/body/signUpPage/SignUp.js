@@ -13,7 +13,7 @@ class ControlledFormComponent extends Component {
                 <h3>Create your Account</h3>
                 <br />
                 <form>
-                    <label>Name: </label>
+                    <label>Name2: </label>
                 </form>
                 <form>
                     <input type="text" placeholder="" />
