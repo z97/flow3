@@ -21,7 +21,7 @@
 
     color: white;
     width: fit-content;
-    border-radius: 20px;
+    border-radius: 50px;
     width: 154px;
     height: 55px;
     border: none;
@@ -34,30 +34,92 @@
     background-color: #802882;
     color: white;
     width: fit-content;
-    border-radius: 20px;
+    border-radius: 50px;
     width: 154px;
     height: 55px;
     border: none;
 
 }
 
-.pixels {
 
-    top: 231px;
+/* Разделить экран пополам */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Контролируйте левую сторону */
+.left {
+    top: 100px;
     left: 0px;
     width: 960px;
-    height: 843px;
-    border: 1px;
+    height: 703px;
 
-    /* UI Properties */
 
-    background: transparent url('images/pexels-mo-10035858.jpg') 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
+}
+
+/* Контролируйте правую сторону */
+.right {
+    top: 150px;
+    left: 900px;
+    width: 480px;
+    height: 445px;
+    border-radius: 25px;
+
+    background: #E7E7E7 0% 0% no-repeat padding-box;
+
+}
+
+/* Если вы хотите, чтобы содержимое было центрировано по горизонтали и вертикали */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Стиль изображения внутри центрированного контейнера, если это необходимо */
+.centered img {
+    width: 150px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 
+.btn span {
 
+    /* Layout Properties */
 
+    top: 625px;
+    left: 1115px;
+    width: 154px;
+    height: 55px;
+
+    /* UI Properties */
+
+    opacity: 1;
+
+}
+
+.btn1 span {
+    /* Layout Properties */
+
+    top: 621px;
+    left: 1281px;
+    width: 180px;
+    height: 64px;
+
+    /* UI Properties */
+
+    opacity: 1;
+}
+/*
+=============================================*/
 
 
