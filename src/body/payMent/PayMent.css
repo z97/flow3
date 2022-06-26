@@ -1,0 +1,26 @@
+.div {
+    /* Layout Properties */
+
+    top: 512px;
+    left: 630px;
+    width: 114px;
+    height: 34px;
+
+    /* UI Properties */
+
+
+    opacity: 1;
+}
+
+.div2{
+    /* Layout Properties */
+
+    top: 512px;
+    left: 1035px;
+    width: 233px;
+    height: 271px;
+
+    /* UI Properties */
+
+    opacity: 1;
+}
