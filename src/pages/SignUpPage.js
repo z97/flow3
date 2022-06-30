@@ -5,7 +5,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export default function SignUpPage() {
     return (
-        <div>
+        <div style={{width: "486px", height: "475px"}}>
             <h1>Sign Up</h1>
             <Formik
                 initialValues={{
@@ -17,6 +17,7 @@ export default function SignUpPage() {
                     await sleep(500);
                     alert(JSON.stringify(values, null, 2));
                 }}
+                
             >
                 {({ isSubmitting }) => (
                     <Form>
