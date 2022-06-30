@@ -9,46 +9,45 @@ class ControlledFormComponent extends Component {
 
                 <div class="split left">
                     <div class="centred">
-                <img src={pixels} alt="Start Page" width="90%"/>
+                        <img src={pixels} alt="Start Page" width="90%" />
                     </div>
                 </div>
                 <br />
 
                 <div class="split right">
                     <div class="centred">
-                <div className='form'>
-                <h3>Create your Account</h3>
-                <br />
-                <form>
-                    <label>Name: </label>
-                </form>
-                <form>
-                    <input type="text" placeholder="" />
-                </form>
-                <form>
-                    <label>Email: </label>
-                </form>
-                <form>
-                    <input type="text" placeholder="" />
-                </form>
-                <form>
-                <label>Password: </label>
-                </form>
-                <form>
-                    <input type="text" placeholder="" />
-                </form>
+                        <div className='form'>
+                            <h3>Create your Account</h3>
+                            <br />
+                            <form>
+                                <label>Name: </label>
+                            </form>
+                            <form>
+                                <input type="text" placeholder="" />
+                            </form>
+                            <form>
+                                <label>Email: </label>
+                            </form>
+                            <form>
+                                <input type="text" placeholder="" />
+                            </form>
+                            <form>
+                                <label>Password: </label>
+                            </form>
+                            <form>
+                                <input type="text" placeholder="" />
+                            </form>
 
-                </div>
-
-                <br />
-                <br />
-                <div>
-                    <p className="btn"><span></span>
-                    <button className='buttonReadMore' style={{}}>Read More >></button>
-                    <button className='buttonJoinNow' style={{}}>Join now</button>
-                    </p>
-                </div>
-                </div>
+                        </div>
+                        <br />
+                        <br />
+                        <div>
+                            <p className="btn"><span></span>
+                                <button className='buttonReadMore' style={{}}>Read More </button>
+                                <button className='buttonJoinNow' style={{}}>Join now</button>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

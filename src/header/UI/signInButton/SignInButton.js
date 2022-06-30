@@ -6,7 +6,7 @@ import SignInPopUp from './SignInPopUp'
 export default function SignInButton() {
   const [login, setLogin] = useState(true)
   return (
-    (login == true)
+    (login == false)
       ? <SignInPopUp/>
       : <ProfilePopUp/>
   )

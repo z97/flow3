@@ -6,7 +6,6 @@ const Layout = () => {
     <>
       <nav>
         <Header/>
-
           <div style={{
             display: "flex",
             justifyContent: "space-around",
