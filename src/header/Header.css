@@ -1,38 +1,17 @@
 .container {  display: grid;
-  grid-template-columns: 0.8fr 1.7fr 0.7fr 0.8fr;
-  grid-template-rows: 0.6fr 0.5fr;
+  grid-template-columns: 0.7fr 1.9fr 0.7fr 0.7fr;
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Logo Search SignIn Icons"
-    "Logo Nav Nav Nav";
+    "logo search signIn Icons";
+  align-items: center;
 }
 
-.Search {
-  justify-self: stretch;
-  align-self: center;
-  grid-area: Search;
-}
+.logo { grid-area: logo; }
 
-.SignIn {
-  align-self: center;
-  grid-area: SignIn;
-}
+.search { grid-area: search; }
 
-.Icons {
-  align-self: center;
-  grid-area: Icons;
-}
+.signIn { grid-area: signIn; }
 
-.Logo {
-  justify-self: start;
-  align-self: center;
-  grid-area: Logo;
-}
-
-.Nav {
-  justify-self: stretch;
-  align-self: center;
-  grid-area: Nav;
-}
-
+.Icons { grid-area: Icons; }

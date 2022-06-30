@@ -8,8 +8,9 @@ import PayMent from "./body/payMent/PayMent"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    {/*<App />*/}
+    <App />
       {/*<SignUp/>*/}
-      <PayMent/>
+      
+      {/* <PayMent/> */}
   </BrowserRouter>
 );
