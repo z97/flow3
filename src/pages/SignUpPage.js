@@ -1,9 +1,16 @@
 import React from 'react'
 import { Formik, Field, Form } from 'formik';
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
+const base_url = ''
 export default function SignUpPage() {
+    let myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+    let requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+    };
     return (
         <div style={{width: "486px", height: "475px"}}>
             <h1>Sign Up</h1>
@@ -14,13 +21,17 @@ export default function SignUpPage() {
                     email: '',
                 }}
                 onSubmit={async (values) => {
-                    await sleep(500);
+                    const res = await  fetch(`${base_url}/registration`, requestOptions).then(res => res.text()).then(res=> console.log(res))
                     alert(JSON.stringify(values, null, 2));
                 }}
                 
             >
                 {({ isSubmitting }) => (
                     <Form>
+                        <label htmlFor="login">Login</label>
+                        <Field name="login"/>
+                        <label htmlFor="password">Password</label>
+                        <Field name="password" type="password"/>
                         <label htmlFor="firstName">First Name</label>
                         <Field name="firstName" placeholder="Jane" />
                         <label htmlFor="lastName">Last Name</label>
