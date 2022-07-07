@@ -15,7 +15,10 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "reactjs-popup": "^2.0.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@paypal/paypal-js": "2.1.5",
+    "@paypal/react-paypal-js": "4.0.2",
+    "promise-polyfill": "8.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import index from "./images/index.png"
 import "./PayMent.css"
 class ControlledFormComponent extends Component {
+
+
+
     render(){
         return (
 
@@ -82,6 +85,7 @@ class ControlledFormComponent extends Component {
                             </form>
 
 <br/>
+
 
                         </div>
                         <div>
