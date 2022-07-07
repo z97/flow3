@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import Header from "../header/Header";
 import { useState, useEffect } from "react";
+import Items from "./Items";
 
 const Layout = () => {
   const stringifyData = data => JSON.stringify(data, null, 2)
@@ -45,6 +46,7 @@ const Layout = () => {
       </button>
 
       <section>
+        <Items data={data}/>
         <pre>{data}</pre>
       </section>
     </>
