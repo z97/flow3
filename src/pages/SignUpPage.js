@@ -8,7 +8,7 @@ export default function SignUpPage() {
     let requestOptions = {
         method: 'POST',
         headers: myHeaders,
-        body: raw,
+        /*body: raw,*/
         redirect: 'follow'
     };
     return (
@@ -47,3 +47,5 @@ export default function SignUpPage() {
         </div>
     )
 }
+
+

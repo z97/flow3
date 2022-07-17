@@ -61,11 +61,17 @@ function Button() {
 }
 export default function App() {
     return (
-        <div className="App">
-            <h1>Hello PayPal</h1>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh', color: 'blue'}} className="App">
+
+            {/*<h1>Choose payment<br/> method below</h1>*/}
+
+
             <PayPalScriptProvider options={paypalScriptOptions}>
+
                 <Button />
             </PayPalScriptProvider>
         </div>
     );
 }
+
+

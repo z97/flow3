@@ -6,13 +6,15 @@ import SignUp from "./body/signUpPage/SignUp";
 import SignUpPage from "./pages/SignUpPage"
 import PayMent from "./body/payMent/PayMent"
 import PayPallButton from "./body/payMent/PayPallButton"
+import Home from "./pages/Home"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     {/*<App />*/}
+    <Home/>
       {/*<SignUpPage/>*/}
-      <PayPallButton/>
+      {/*<PayPallButton/>*/}
       {/*<PayMent/>*/}
   </BrowserRouter>
 );
