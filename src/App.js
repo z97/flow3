@@ -1,12 +1,11 @@
 import "./App.css";
 /*import { BrowserRouter, Routes, Route } from "react-router-dom";*/
-import { Router, Route } from "react-router-dom";
+import { Router, Route, Link, Switch } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import SignUpPage from "./pages/SignUpPage";
 import PayPallButton from "./body/payMent/PayPallButton";
-
 
 /*function App() {
   return (
@@ -21,20 +20,35 @@ import PayPallButton from "./body/payMent/PayPallButton";
     </div>
   );
 }*/
-const App = () => <div className="App">
+const App = () => (
+  <div className="App">
     <Router>
-        <div>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/signUpPage" component={SignUpPage}/>
-            <Route exact path="/noPage" component={NoPage}/>
-            <Route exact path="/layout" component={Layout}/>
-            <Route exact path="/payPallButton" component={PayPallButton}/>
-
-
-
-
-        </div>
+      <div>
+        <Link to="/" component={Home} />
+        <Link to="/signUpPage" component={SignUpPage} />
+        <Link to="/noPage" component={NoPage} />
+        <Link to="/layout" component={Layout} />
+        <Link to="/payPallButton" component={PayPallButton} />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/signUpPage">
+            <SignUpPage />
+          </Route>
+          <Route path="/noPage">
+            <NoPage />
+          </Route>
+          <Route path="/layout">
+            <Layout />
+          </Route>
+          <Route path="/payPallButton">
+            <PayPallButton />
+          </Route>
+        </Switch>
+      </div>
     </Router>
-</div>
+  </div>
+);
 
 export default App;
