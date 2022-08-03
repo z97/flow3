@@ -5,11 +5,9 @@ import {Button} from "react-bootstrap";
 export default function Home() {
     return (
        < div style={{display: 'flex',  justifyContent:'center', alignItems:'center',  color: 'whitesmoke'}}>
-
             <img src={background} alt="image" />
             <Button>
-                <a href='./SignUpPage.js'
-                   target={"_blank"}>
+                <a href='./SignUpPage'>
                     Sign Up
                 </a>
             </Button>
