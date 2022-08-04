@@ -1,20 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import SignUp from "./body/signUpPage/SignUp";
-import SignUpPage from "./pages/SignUpPage"
-import PayMent from "./body/payMent/PayMent"
-import PayPallButton from "./body/payMent/PayPallButton"
-import Home from "./pages/Home"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import SignUpPage from "./pages/SignUpPage";
+import PayPallButton from "./body/payMent/PayPallButton";
+import Home from "./pages/Home";
+import NoPage from "./pages/NoPage";
+import Layout from "./pages/Layout";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <BrowserRouter>
-    {/*<App />*/}
-    <Home/>
-      {/*<SignUpPage/>*/}
-      {/*<PayPallButton/>*/}
-      {/*<PayMent/>*/}
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/signUpPage" element={<SignUpPage />} />
+      <Route path="/noPage" element={<NoPage />} />
+      <Route path="/layout" element={<Layout />} />
+      <Route path="/payPallButton" element={<PayPallButton />} />
+    </Routes>
   </BrowserRouter>
 );
